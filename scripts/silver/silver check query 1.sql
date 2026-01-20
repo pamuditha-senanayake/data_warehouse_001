@@ -21,7 +21,7 @@ WHERE cst_gndr != TRIM(cst_gndr)
 SELECT DISTINCT cst_gndr
 FROM bronze.crm_cust_info
 
---for silver
+--for silver layer testing
 
 SELECT 
 cst_id,
